@@ -3,12 +3,12 @@
 <suite name="Sample" thread-count="2" parallel="tests" verbose="1">
 <test name="Test1">
     <classes>
-        <class name="tests.FirstTestNgTest" />
+        <class name="tests.FinalTestExample" />
     </classes>
 </test>
 <test name="Test2">
     <classes>
-        <class name="tests.FirstTestNgTest2" />
+        <class name="tests.FinalTestExample2" />
     </classes>
 </test>
 </suite>

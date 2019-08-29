@@ -1,17 +1,17 @@
 package bankProject;
 
-import element.BaseElement;
+import element.Label;
 import org.openqa.selenium.By;
 
 public class DashboardPage {
 
-    private BaseElement sideMenu;
+    private Label welcomeLabel;
 
     public DashboardPage(){
-        sideMenu = new BaseElement(By.className("menusubnav"));
+        welcomeLabel = new Label(By.className("heading3"));
     }
 
     public boolean isSideMenuDisplayed(){
-        return sideMenu.isDisplayed();
+        return welcomeLabel.isDisplayed();
     }
 }
